@@ -1,0 +1,1 @@
+{"mappings":"AAAA,wBAAwB;AAExB,SAAS,aAAa,CAAC,SAAS,SAAS,IAAI,MAAM,IAAI,OAAO,cAAc","sources":["src/scripts/index.js"],"sourcesContent":["//window.alert(\"Hello\");\n\ndocument.querySelector(\"#time\").innerText += \" \" + new Date().toLocaleString();\n"],"names":[],"version":3,"file":"index.6a31943b.js.map","sourceRoot":"/__parcel_source_root/"}
