@@ -1,0 +1,16 @@
+{
+  "name": "hello-web",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "parcel build './src/**/*.html' --public-url=/demo-personal-site",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^6.1.1",
+    "parcel": "^2.11.0"
+  }
+}
