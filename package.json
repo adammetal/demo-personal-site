@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "parcel build './src/**/*.html' --public-url=/demo-personal-site",
+    "build": "parcel build './src/**/*.html' --no-cache --public-url /demo-personal-site",
+    "start": "parcel serve './src/**/*.html' --open",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
